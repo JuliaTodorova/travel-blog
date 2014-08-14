@@ -90,9 +90,10 @@ body {
 /* line 31, ../sass/screen.scss */
 #container {
   height: 100%;
+  width: 100%;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .main {
   position: absolute;
   width: 100%;
@@ -100,7 +101,7 @@ body {
   overflow: hidden;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .main > section {
   position: absolute;
   width: 50%;
@@ -141,4 +142,32 @@ body {
   top: 50%;
   left: 50%;
   background: #ecb9a1;
+}
+
+/* line 72, ../sass/screen.scss */
+.about {
+  background-color: #97b2b5;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 77, ../sass/screen.scss */
+.basics {
+  background-color: #b9d5b5;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 82, ../sass/screen.scss */
+.travel {
+  background-color: #e8ddac;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 87, ../sass/screen.scss */
+.photographs {
+  background-color: #ecb9a1;
+  width: 100%;
+  height: 100%;
 }
