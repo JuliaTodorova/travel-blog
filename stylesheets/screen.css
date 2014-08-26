@@ -74,6 +74,13 @@ body {
 }
 
 /* line 17, ../sass/screen.scss */
+#container-about {
+  min-height: 850px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 22, ../sass/screen.scss */
 #container-index {
   background: url("../images/3.jpg") no-repeat scroll 0 center/cover #333333;
   height: 975px;
@@ -82,37 +89,38 @@ body {
   top: 0;
   width: 100%;
 }
-/* line 24, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 #container-index h1 {
   color: white;
   font-size: 8.5em;
+  font-weight: 100;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .landing {
   text-align: center;
   margin-top: 250px;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .second {
   text-align: center;
   margin-top: 50px;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 span .logo {
   float: left;
   margin: 20px 0 0 20px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 span .nav {
   float: right;
   margin-right: 40px;
   margin-top: 20px;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 #menu-icon {
   display: block;
   width: 40px;
@@ -124,17 +132,17 @@ span .nav {
   margin: 20px 20px 0 0;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 #logo img {
   width: 250px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 #main-nav ul, #main-nav:active ul {
   display: none;
   position: absolute;
@@ -146,40 +154,117 @@ a:hover#menu-icon {
   min-height: 875px;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #main-nav li {
   text-align: center;
   width: 100%;
   padding: 3px 0px;
   margin: 0;
 }
-/* line 80, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #main-nav li a {
   color: fff;
   text-decoration: none;
   font-size: 8em;
+  font-weight: 100;
 }
-/* line 85, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #main-nav li a:hover {
   text-decoration: underline;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .exit {
   position: absolute;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #main-nav:hover ul {
   display: block;
 }
 
-/* line 95, ../sass/screen.scss */
-#about-header {
+/* line 102, ../sass/screen.scss */
+#about-img {
+  background: url("../images/about.jpg") no-repeat scroll 0 center/cover #333333;
+  height: 350px;
+  margin: 0 auto;
+  top: 0;
   width: 100%;
-  height: 400px;
 }
-/* line 99, ../sass/screen.scss */
-#about-header img {
+/* line 109, ../sass/screen.scss */
+#about-img h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 150px;
+  position: relative;
+}
+
+/* line 119, ../sass/screen.scss */
+#basics-img {
+  background: url("../images/basics.jpg") no-repeat scroll 0 center/cover #333333;
+  height: 350px;
+  margin: 0 auto;
+  top: 0;
   width: 100%;
+}
+/* line 126, ../sass/screen.scss */
+#basics-img h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 150px;
+  position: relative;
+}
+
+/* line 136, ../sass/screen.scss */
+#content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3%;
+}
+/* line 141, ../sass/screen.scss */
+#content p {
+  color: #4D4D4D;
+  font-size: 1.1em;
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+
+/* line 148, ../sass/screen.scss */
+#travel-img {
+  background: url("../images/travel.jpg") no-repeat scroll 0 center/cover #333333;
+  height: 350px;
+  margin: 0 auto;
+  top: 0;
+  width: 100%;
+}
+/* line 155, ../sass/screen.scss */
+#travel-img h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 150px;
+  position: relative;
+}
+
+/* line 166, ../sass/screen.scss */
+#photographs-img {
+  background: url("../images/photographs.jpg") no-repeat scroll 0 center/cover #333333;
+  height: 350px;
+  margin: 0 auto;
+  top: 0;
+  width: 100%;
+}
+/* line 173, ../sass/screen.scss */
+#photographs-img h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 150px;
+  position: relative;
 }

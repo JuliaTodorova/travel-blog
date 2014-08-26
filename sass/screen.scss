@@ -14,6 +14,11 @@ body{
 	color:black;
 	font-family: 'Lato', sans-serif;
 }
+#container-about{
+	min-height: 850px;
+    margin: 0 auto;
+    width: 100%;
+}
 #container-index{
     background: url("../images/3.jpg") no-repeat scroll 0 center / cover #333333;
     height: 975px;
@@ -24,6 +29,7 @@ body{
 h1{
 	color:$main-text-color;
 	font-size:8.5em;
+	font-weight:100;
 	}
 }
 .landing{
@@ -81,6 +87,7 @@ a:hover#menu-icon{
 		color:fff;
 		text-decoration:none;
 		font-size:8em;
+		font-weight:100;
 		}
 		a:hover{
 		text-decoration:underline;
@@ -92,12 +99,85 @@ a:hover#menu-icon{
 #main-nav:hover ul{
 display: block;
 }
-#about-header{
-	width:100%;
-	height:400px;
-	 
-	 img{
-	 	width:100%;
-	 }
+#about-img{
+	background: url("../images/about.jpg") no-repeat scroll 0 center / cover #333333;
+    height: 350px;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
 
+    h1{
+    	text-align:center;
+    	font-size:5em;
+    	color:#fff;
+    	font-weight:100;
+    	padding-top: 150px;
+    	position: relative;
+    }
+
+}
+#basics-img{
+	background: url("../images/basics.jpg") no-repeat scroll 0 center / cover #333333;
+    height: 350px;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+
+    h1{
+    	text-align:center;
+    	font-size:5em;
+    	color:#fff;
+    	font-weight:100;
+    	padding-top: 150px;
+    	position: relative;
+    }
+
+}
+#content{
+	max-width:980px;
+	margin:0 auto;
+	padding:3%;
+
+	p{
+	color:#4D4D4D;
+	font-size:1.1em;
+	padding-bottom:25px;
+	font-weight:400;
+	}
+}
+#travel-img{
+	background: url("../images/travel.jpg") no-repeat scroll 0 center / cover #333333;
+    height: 350px;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+
+    h1{
+    	text-align:center;
+    	font-size:5em;
+    	color:#fff;
+    	font-weight:100;
+    	padding-top: 150px;
+    	position: relative;
+    }
+
+	
+}
+#photographs-img{
+	background: url("../images/photographs.jpg") no-repeat scroll 0 center / cover #333333;
+    height: 350px;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+
+    h1{
+    	text-align:center;
+    	font-size:5em;
+    	color:#fff;
+    	font-weight:100;
+    	padding-top: 150px;
+    	position: relative;
+    }
+
+	
 }
