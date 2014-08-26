@@ -99,7 +99,7 @@ body {
 /* line 35, ../sass/screen.scss */
 .landing {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 /* line 39, ../sass/screen.scss */
@@ -179,11 +179,6 @@ a:hover#menu-icon {
 }
 
 /* line 99, ../sass/screen.scss */
-#main-nav:hover ul {
-  display: block;
-}
-
-/* line 102, ../sass/screen.scss */
 #about-img {
   background: url("../images/about.jpg") no-repeat scroll 0 center/cover #333333;
   height: 350px;
@@ -191,7 +186,7 @@ a:hover#menu-icon {
   top: 0;
   width: 100%;
 }
-/* line 109, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #about-img h1 {
   text-align: center;
   font-size: 5em;
@@ -201,7 +196,7 @@ a:hover#menu-icon {
   position: relative;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #basics-img {
   background: url("../images/basics.jpg") no-repeat scroll 0 center/cover #333333;
   height: 350px;
@@ -209,7 +204,7 @@ a:hover#menu-icon {
   top: 0;
   width: 100%;
 }
-/* line 126, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 #basics-img h1 {
   text-align: center;
   font-size: 5em;
@@ -219,13 +214,13 @@ a:hover#menu-icon {
   position: relative;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #content {
   max-width: 980px;
   margin: 0 auto;
   padding: 3%;
 }
-/* line 141, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #content p {
   color: #4D4D4D;
   font-size: 1.1em;
@@ -233,7 +228,7 @@ a:hover#menu-icon {
   font-weight: 400;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #travel-img {
   background: url("../images/travel.jpg") no-repeat scroll 0 center/cover #333333;
   height: 350px;
@@ -241,7 +236,7 @@ a:hover#menu-icon {
   top: 0;
   width: 100%;
 }
-/* line 155, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #travel-img h1 {
   text-align: center;
   font-size: 5em;
@@ -251,7 +246,7 @@ a:hover#menu-icon {
   position: relative;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #photographs-img {
   background: url("../images/photographs.jpg") no-repeat scroll 0 center/cover #333333;
   height: 350px;
@@ -259,7 +254,7 @@ a:hover#menu-icon {
   top: 0;
   width: 100%;
 }
-/* line 173, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #photographs-img h1 {
   text-align: center;
   font-size: 5em;
