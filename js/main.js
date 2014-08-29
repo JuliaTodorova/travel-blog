@@ -1,5 +1,10 @@
-$(document).ready(function(){
-	$('#menu-icon').bind('click');
-		$('#main-nav ul').toggle();
+/*$(document).ready(function(){
+	$("#hide").click(function(){
+		$("#main-nav ul").hide();
+	});
+
+	$("#show").click(function(){
+		$("#main-nav ul").show();
 	});
 });
+*/

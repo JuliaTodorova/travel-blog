@@ -61,12 +61,6 @@ span{
 	z-index: 2;
 	margin:20px 20px 0 0;
 }
-a:hover#menu-icon{
-	border-radius: 4px 4px 0 0;
-}
-#logo img{
-	width: 250px;
-}
 #main-nav ul, #main-nav:active ul{
 	display: none;
 	position: absolute;
@@ -76,6 +70,12 @@ a:hover#menu-icon{
 	width: 100%;
 	border-radius: 4px 0px 4px 4px;
 	min-height:875px;
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+#logo img{
+	width: 250px;
 }
 #main-nav li{
 	text-align: center;
@@ -93,9 +93,6 @@ a:hover#menu-icon{
 		text-decoration:underline;
 		}
 }
-.exit{
-	position:absolute;
-}
 #about-img{
 	background: url("../images/about.jpg") no-repeat scroll 0 center / cover #333333;
     height: 350px;
@@ -111,7 +108,6 @@ a:hover#menu-icon{
     	padding-top: 150px;
     	position: relative;
     }
-
 }
 #basics-img{
 	background: url("../images/basics.jpg") no-repeat scroll 0 center / cover #333333;
@@ -140,6 +136,7 @@ a:hover#menu-icon{
 	font-size:1.1em;
 	padding-bottom:25px;
 	font-weight:400;
+	font-family: 'Oxygen', sans-serif;
 	}
 }
 #travel-img{
@@ -157,8 +154,6 @@ a:hover#menu-icon{
     	padding-top: 150px;
     	position: relative;
     }
-
-	
 }
 #photographs-img{
 	background: url("../images/photographs.jpg") no-repeat scroll 0 center / cover #333333;
