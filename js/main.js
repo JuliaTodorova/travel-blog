@@ -1,10 +1,9 @@
-/*$(document).ready(function(){
-	$("#hide").click(function(){
-		$("#main-nav ul").hide();
+$(document).ready(function(){
+	$(".show").click(function(){
+		$("#main-nav ul").toggle();
 	});
 
-	$("#show").click(function(){
-		$("#main-nav ul").show();
+	$(".show").click(function(){
+		$("#content").toggle();
 	});
 });
-*/

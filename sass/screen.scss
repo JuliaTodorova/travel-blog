@@ -63,13 +63,9 @@ span{
 }
 #main-nav ul, #main-nav:active ul{
 	display: none;
-	position: absolute;
-	padding: 20px;
 	background-color: #000;
-	border: 5px solid #000;
 	width: 100%;
-	border-radius: 4px 0px 4px 4px;
-	min-height:875px;
+	height:875px;
 }
 a:hover#menu-icon{
 	border-radius: 4px 4px 0 0;
@@ -80,19 +76,20 @@ a:hover#menu-icon{
 #main-nav li{
 	text-align: center;
 	width: 100%;
-	padding: 3px 0px;
+	padding: 5px 0px;
 	margin: 0;
 
 		a{
 		color:fff;
 		text-decoration:none;
-		font-size:8em;
+		font-size:7em;
 		font-weight:100;
 		}
 		a:hover{
 		text-decoration:underline;
 		}
 }
+
 #about-img{
 	background: url("../images/about.jpg") no-repeat scroll 0 center / cover #333333;
     height: 350px;
@@ -136,7 +133,6 @@ a:hover#menu-icon{
 	font-size:1.1em;
 	padding-bottom:25px;
 	font-weight:400;
-	font-family: 'Oxygen', sans-serif;
 	}
 }
 #travel-img{
