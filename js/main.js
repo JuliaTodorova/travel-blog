@@ -88,4 +88,10 @@ function addPoint(lat, lng, map){
 
  window.onload = initialize;
 
+ // Google Map Marker Modules 
+
+	$(function() {
+		$( "#dialog" ).dialog();
+});
+
 

@@ -55,11 +55,14 @@ span{
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url(../images/menu.png) center;
 	background-repeat: no-repeat;
 	float: right;
 	z-index: 2;
-	margin:20px 20px 0 0;
+	margin:20px 20px 0 40px;
+}
+.fa-bars{
+	color:#fff;
+	font-size:2.2em;
 }
 #main-nav ul, #main-nav:active ul{
 	display: none;
@@ -121,7 +124,6 @@ a:hover#menu-icon{
     	padding-top: 150px;
     	position: relative;
     }
-
 }
 #content{
 	max-width:980px;
@@ -133,6 +135,14 @@ a:hover#menu-icon{
 	font-size:1.1em;
 	padding-bottom:25px;
 	font-weight:400;
+	}
+}
+#content-photos{
+	margin:0 auto;
+	padding:3%;
+
+	h3{
+		padding:5px;
 	}
 }
 #travel-img{
@@ -169,4 +179,60 @@ a:hover#menu-icon{
 }
 #map-canvas{
 	height:700px;
+}
+
+ul.img-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.img-list li {
+	display: inline-block;
+	margin: 0 1em 1em 0;
+	position: relative;
+}
+
+div.text-content {
+	font-family: 'Lato', sans-serif;
+	background: rgba(0, 0, 0, 0.6); 
+	font-size: 1.0em;
+	color: white;
+	font-weight: 100;
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+div.text-content h3{
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 1.4em;
+	text-decoration: underline;
+}
+.img-list img{
+	width: 100%;
+}
+div.text-content div {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 420px;
+	height: 225px;
+}
+ul.img-list li:hover div.text-content {
+	opacity: 1;
+}
+.photo-main{
+	display: inline-block;
 }
