@@ -4,7 +4,7 @@ $(document).ready(function(){
 	});
 
 	$(".show").click(function(){
-		$("#content").toggle();
+		$("#content,#content-photos").toggle();
 	});
 });
 // Google Map
@@ -52,6 +52,7 @@ var cities = [
 	new City("Jaisalmer",26.9133,70.9139),
 	new City("New Delhi",28.6139,77.2089),
 ]
+// Marker Fun
 
 var map;
 
@@ -84,14 +85,10 @@ function addPoint(lat, lng, map){
 	 	position:point,
 	 	map:map,
 	 })	
+
 }
 
- window.onload = initialize;
+ google.maps.event.addDomListener(window,'load', initialize);
 
- // Google Map Marker Modules 
-
-	$(function() {
-		$( "#dialog" ).dialog();
-});
 
 
