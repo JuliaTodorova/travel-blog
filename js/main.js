@@ -62,7 +62,7 @@ function initialize(location)
 
 	var mapOptions = {
 		zoom: 2,
-		center: new google.maps.LatLng(0,0)
+		center: new google.maps.LatLng(28,0)
 	};
 
 	 map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -85,10 +85,10 @@ function addPoint(lat, lng, map){
 	 	position:point,
 	 	map:map,
 	 })	
-
 }
 
  google.maps.event.addDomListener(window,'load', initialize);
+
 
 
 
