@@ -88,7 +88,3 @@ function addPoint(lat, lng, map){
 }
 
  google.maps.event.addDomListener(window,'load', initialize);
-
-
-
-

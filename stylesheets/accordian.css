@@ -1,19 +1,26 @@
 /* Flexible Slide-to-top Accordion Style*/
 .wrapper{
 	width:90%;
-	max-width:800px;
+	max-width:980px;
 	margin:30px auto;
 }
 .st-accordion{
     width:100%;
     min-width:270px;
     margin: 0 auto;
+    margin-top: 50px;
+}
+.st-accordion ul{
+	margin: 0 auto;
 }
 .st-accordion ul li{
     height: 100px;
+    width:250px;
+    display: inline-block;
     border-bottom: 1px solid #4d4d4d;
     border-top:1px solid #fff;
     overflow: hidden;
+    margin: 0 25px;
 }
 .st-accordion ul li:first-child{
     border-top:none;
@@ -31,6 +38,11 @@
 	transition:  color 0.2s ease-in-out;
 	color:#4d4d4d;
 	text-decoration: none;
+	text-align: center;
+}
+.st-accordion ul li h3{
+	display: inline;
+	text-transform: uppercase;
 }
 .st-accordion ul li > a span{
 	background: transparent url(../images/down.png) no-repeat center center;
@@ -75,6 +87,7 @@
 .st-content p a{
 	text-decoration: none;
 	color: #4d4d4d;
+	font-weight: 300;
 }
 .st-content p a:hover{
 	text-decoration: underline;
