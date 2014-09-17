@@ -86,5 +86,17 @@ function addPoint(lat, lng, map){
 	 	map:map,
 	 })	
 }
-
  google.maps.event.addDomListener(window,'load', initialize);
+
+
+// Dialog Boxes
+
+$(document).ready(function(){
+	$(".st-content p a").each(function(){
+		$(this).click(function(){
+			$("#dialog").dialog('open');
+			
+			return false
+		});
+	});
+});	

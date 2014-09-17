@@ -4,17 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<title>Travel</title>
+	
 		<script type="text/javascript" src='bower_components/jquery/dist/jquery.js'></script>
-		<script type="text/javascript"
-		src="https://maps.googleapis.com/maps/api/js?">
-		</script>
-		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?"></script>
+		
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/main.js"></script>
+
+		<script src="../jquery.colorbox.js"></script>
+		
 		<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="stylesheets/jquery-ui.css">
+		<link rel="stylesheet" href="stylesheets/jquery-ui.structure.css">
+		<link rel="stylesheet" href="stylesheets/jquery-ui.theme.css">
 	</head>
 	<body>
 		<div id="container">
@@ -35,6 +38,9 @@
 				<div id="map-canvas">
 				</div>
 				<h2>Index</h2>
+				<span id="dialog" title="Basic Dialog">
+					<p>This is the default dialog which is useful for displaying information.</p>
+				</span>
 				<div id="st-accordion" class="st-accordion">
 					<ul>
 						<li>
@@ -195,13 +201,13 @@
 								<span class="st-arrow"></span>
 							</a>
 							<div class="st-content">
-								<p><a href="#">Seattle</a></p>
-								<p><a href="#">Portland</a></p>
-								<p><a href="#">San Francisco</a></p>
-								<p><a href="#">Sequoia National Park</a></p>
-								<p><a href="#">Los Angeles</a></p>
-								<p><a href="#">San Diego</a></p>
-								<p><a href="#">New York</a></p>
+								<p><a href="">Seattle</a></p>
+								<p><a href="">Portland</a></p>
+								<p><a href="">San Francisco</a></p>
+								<p><a href="">Sequoia National Park</a></p>
+								<p><a href="">Los Angeles</a></p>
+								<p><a href="">San Diego</a></p>
+								<p><a href="">New York</a></p>
 							</div>
 						</li>
 					</ul>
@@ -209,13 +215,17 @@
 			</div>
 		</div>
 	</body>
+
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/jquery.accordion.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript">
-	$(function() {
-
-		$('#st-accordion').accordion();
-
-	});
+		$(function() {
+			$('#st-accordion').accordion();
+			$('#dialog').dialog({
+				autoOpen:false,
+			});
+		});
 	</script>
 	</html>

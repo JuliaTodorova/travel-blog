@@ -148,7 +148,7 @@ span .nav {
   display: none;
   background-color: #000;
   width: 100%;
-  height: 875px;
+  min-height: 875px;
 }
 /* line 79, ../sass/screen.scss */
 #main-nav ul .first, #main-nav:active ul .first {
