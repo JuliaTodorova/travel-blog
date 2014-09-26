@@ -74,14 +74,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 #container {
   min-height: 850px;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 #container-index {
   background: url("../images/3.jpg") no-repeat scroll 0 center/cover #333333;
   height: 975px;
@@ -90,7 +90,7 @@ body {
   top: 0;
   width: 100%;
 }
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 #container-index h1 {
   color: white;
   font-family: 'Lato', sans-serif;
@@ -98,25 +98,25 @@ body {
   font-weight: 100;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .landing {
   text-align: center;
   margin-top: 200px;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .second {
   text-align: center;
   margin-top: 50px;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 span .logo {
   float: left;
   margin: 20px 0 0 20px;
   position: absolute;
 }
-/* line 51, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 span .nav {
   float: right;
   margin-right: 40px;
@@ -124,7 +124,7 @@ span .nav {
   position: absolute;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 #menu-icon {
   display: block;
   width: 40px;
@@ -137,45 +137,45 @@ span .nav {
   right: 10;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .fa-bars {
   color: #fff;
   font-size: 2.2em;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 #main-nav ul, #main-nav:active ul {
   display: none;
   background-color: #000;
   width: 100%;
   min-height: 875px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #main-nav ul .first, #main-nav:active ul .first {
   padding-top: 75px;
 }
-/* line 83, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #main-nav ul li, #main-nav:active ul li {
   padding-bottom: 3px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 #logo img {
-  width: 250px;
+  width: 400px;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 #main-nav li {
   text-align: center;
   width: 100%;
   margin: 0;
 }
-/* line 97, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #main-nav li a {
   color: white;
   text-decoration: none;
@@ -183,39 +183,39 @@ a:hover#menu-icon {
   font-weight: 100;
   font-family: 'Lato', sans-serif;
 }
-/* line 104, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 #main-nav li a:hover {
   text-decoration: underline;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #about-img {
   background: url("../images/about.jpg") no-repeat scroll 0 center/cover #333333;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #basics-img {
   background: url("../images/basics.jpg") no-repeat scroll 0 center/cover #333333;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #travel-img {
   background: url("../images/travel.jpg") no-repeat scroll 0 center/cover #333333;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #photographs-img {
   background: url("../images/photographs.jpg") no-repeat scroll 0 center/cover #333333;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .page-img {
   height: 350px;
   margin: 0 auto;
   top: 0;
   width: 100%;
 }
-/* line 127, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .page-img h1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -226,21 +226,22 @@ a:hover#menu-icon {
   position: relative;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #content {
   max-width: 980px;
   margin: 0 auto;
   padding: 3%;
 }
-/* line 143, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #content p {
   color: #4d4d4d;
   font-size: 1.1em;
   padding-bottom: 25px;
   font-weight: 100;
   color: #4d4d4d;
+  text-align: left;
 }
-/* line 151, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 #content h2 {
   text-align: center;
   font-size: 2.5em;
@@ -248,31 +249,31 @@ a:hover#menu-icon {
   margin-top: 50px;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #content-photos {
   margin: 0 auto;
   padding: 3%;
   margin-top: 50px;
   text-align: center;
 }
-/* line 164, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #content-photos h3 {
   padding: 5px;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #header {
   position: absolute;
   left: 100px;
   top: 150px;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 #map-canvas {
   height: 500px;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 ul.img-list {
   list-style-type: none;
   margin: 0;
@@ -280,14 +281,14 @@ ul.img-list {
   text-align: center;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 ul.img-list li {
   display: inline-block;
   margin: 0 1em 1em 0;
   position: relative;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 div.text-content {
   font-family: 'Lato', sans-serif;
   background: rgba(0, 0, 0, 0.6);
@@ -307,7 +308,7 @@ div.text-content {
   bottom: 0;
   right: 0;
 }
-/* line 208, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 div.text-content h3 {
   text-transform: uppercase;
   font-weight: 100;
@@ -316,7 +317,7 @@ div.text-content h3 {
   color: white;
   line-height: 1.3;
 }
-/* line 217, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 div.text-content div {
   display: table-cell;
   text-align: center;
@@ -325,17 +326,22 @@ div.text-content div {
   height: 225px;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .img-list img {
   width: 100%;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 ul.img-list li:hover div.text-content {
   opacity: 1;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .photo-main {
   display: inline-block;
+}
+
+/* line 250, ../sass/screen.scss */
+#pgwModal .pm-body {
+  top-margin: 0px;
 }
