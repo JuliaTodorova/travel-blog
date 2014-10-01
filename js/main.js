@@ -96,7 +96,7 @@ $(document).ready(function(){
 		$.pgwModal({
 			target: '#modalContent',
 			title: 'modal title 2',
-			maxWidth: 700,
+			maxWidth: 1000,
 			closeOnBackgroundClick : true
 		})
 	});
