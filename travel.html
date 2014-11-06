@@ -1,47 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<DOCTYPE HTML>
-	<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Travel</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+	
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-		<script type="text/javascript" src='bower_components/jquery/dist/jquery.js'></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Travel</title>
+</head>
+<body>
+	<header class="cd-header">
+		<a class="cd-primary-nav-trigger" href="#0">
+			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+		</a>
+	</header>
+	<nav>
+		<ul class="cd-primary-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="basics.html">Basics</a></li>
+			<li><a href="travel.html">Travel</a></li>
+			<li><a href="photos.html">Photos</a></li>
 
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
-		<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-
-		<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
-	</head>
-	<body>
-		<div id="container">
-			<div id="travel-img" class="page-img">
-				<span><a href="index.html"><img src="./images/logo-new.png" class="logo"></a></span>
-				<nav id="main-nav">
-					<a href="#" id="menu-icon" class="show"><i class="fa fa-bars"></i></a>
+		</ul>
+	</nav>
+	<section class="cd-intro travel">
+		<div class="hide">
+			<h1>TRAVEL</h1>
+			<div id="arrow-down"> 
+				<a href="#"><i class="fa fa-angle-down"></i></a>
+			</div>
+		</div>	
+	</section>
+	<main class="cd-main-content">
+		<div id="city-index-container">
+			<h1>City Search</h1>
+			<div class="search">
+				<label id="search-label">Search</label>
+				<input type="text" placeholder="New York" class="searchBox">
+			</div>
+			<div class="check">
+				<label class="select">North America</label>
+				<input type="checkbox" id="north-america">
+				<label class="select">Central America</label>
+				<input type="checkbox" id="central-america">
+				<label class="select">South America</label>
+				<input type="checkbox" id="south-america">
+				<label class="select">Europe</label>
+				<input type="checkbox" id="europe">
+				<label class="select">Asia</label>
+				<input type="checkbox" id="asia">
+			</div>
+			<div class="cd-container">
+				<div class="img-wrapper">
 					<ul>
-						<li class="first"><a href="index.html">Home</a></li>
-						<li><a href="basics.html">Basics</a></li>
-						<li><a href="travel.html">Travel</a></li>
-						<li><a href="photographs.html">Photographs</a></li>
+						<li>
+							<img src="img/pic-thum/alberta.jpg">
+							<h4><span class="city-name">Banff</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/cancun.jpg">
+							<h4><span class="city-name">Cancun</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/cortes.jpg">
+							<h4><span class="city-name">Cortes Island</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/kana.jpg">
+							<h4><span class="city-name">Kananaskis</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/kelowna.jpg">
+							<h4><span class="city-name">Kelowna</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/la.jpg">
+							<h4><span class="city-name">Newport</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/mount-wash.jpg">
+							<h4><span class="city-name">Courtenay</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/playa-d.jpg">
+							<h4><span class="city-name">Playa Del Carman</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/san-fran.jpg">
+							<h4><span class="city-name">San Francisco</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/seattle.jpg">
+							<h4><span class="city-name">Seattle</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>					
+						<li>
+							<img src="img/pic-thum/tulum.jpg">
+							<h4><span class="city-name">Tulum</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/vancouver.jpg">
+							<h4><span class="city-name">Vancouver</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/victoria.jpg">
+							<h4><span class="city-name">Victoria</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/whistler.jpg">
+							<h4><span class="city-name">Whistler</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/munich.jpg">
+							<h4><span class="city-name">Munich</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/rome.jpg">
+							<h4><span class="city-name">Rome</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/venice.jpg">
+							<h4><span class="city-name">Venice</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/florence.jpg">
+							<h4><span class="city-name">Florence</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/greece.jpg">
+							<h4><span class="city-name">Halkidiki</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/velko.jpg">
+							<h4><span class="city-name">Veliko Tarnovo</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/sofia.jpg">
+							<h4><span class="city-name">Sofia</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/tofino.jpg">
+							<h4><span class="city-name">Tofino</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/london.jpg">
+							<h4><span class="city-name">London</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
+						<li>
+							<img src="img/pic-thum/pravets.jpg">
+							<h4><span class="city-name">Pravets</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nibh eget ligula dapibus, non pellentesque odio egestas.</h4>
+						</li>
 					</ul>
-				</nav>
-				<h1>TRAVEL</h1>
-				<div id="arrow-down"> 
-					<a href="#"><i class="fa fa-angle-down"></i></a>
 				</div>
 			</div>
-			<div id="content">
-
-
-
-			</div>
-		</div>
+		</main>
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/main.js"></script>
 	</body>
-
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
 	</html>
