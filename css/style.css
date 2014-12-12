@@ -28,8 +28,22 @@ body.overflow-hidden {
   width: 90%; 
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   padding-top:125px;
+  font-weight: 300;
+}
+.about-content h3{
+  font-size: 2.0em;
+  padding-bottom: 50px;
+}
+.about-content p{
+  line-height: 1.5em;
+  padding-bottom: 25px;
+}
+.about-content h4{
+  font-size: 1.0em;
+  line-height: 1.5em;
+  font-style: italic;
 }
 #city-index-container{
   width: 100%;
@@ -322,7 +336,7 @@ input{
 .home{
   background: url("../img/index-background.jpg") no-repeat center center;
 }
-.basics{
+.about{
   background: url("../img/basics.jpg") no-repeat center center;
 
 }
