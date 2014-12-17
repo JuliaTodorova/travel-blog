@@ -41,7 +41,7 @@
 				</div>
 				<div class="check">
 					<label class="select">North America</label>
-					<input type="checkbox" id="north-america">
+					<input type="checkbox" id="northAmerica">
 					<label class="select">Central America</label>
 					<input type="checkbox" id="central-america">
 					<label class="select">South America</label>
@@ -53,12 +53,12 @@
 				</div>
 			</div>
 		</div>	
-		<div class="cd-container">
-			<ul id="listing"></ul>
+		<div class="cd-container" id="listing">
+			
 		</div>
 	</main>
 	<script type="text/template" id="city-template">
-	<span class= "city-container"> <div class="city-thum"><%= img %></div> <div class="details" ><h4 class="city-title"><%= title %></h4> <h4 class="city-description"><%= description %></h4></div></span>
+	<a class= "city-container"> <div class="city-thum"><%= img %></div> <div class="details" ><h4 class="city-title"><%= title %></h4> <h4 class="city-description"><%= description %></h4></div></a>
 	</script>
 	<script type="text/javascript" src="js/data.json"></script>
 	<script src="js/libs/jquery-2.1.1.js"></script>

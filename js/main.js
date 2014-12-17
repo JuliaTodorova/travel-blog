@@ -19,10 +19,11 @@ jQuery(document).ready(function($){
 
 $(document).ready(function(){
 	$(".cd-primary-nav-trigger").click(function(){
-		$(".hide").fadeToggle('fast');
+		$(".hide").fadeToggle(535);
+			e.preventDefault();
 	});
 
-	$('#arrow-down').click(function(){
+	$("#arrow-down, #searchBox").click(function(){
 		$('html, body').animate({
 			scrollTop:$('#city-index-container').offset().top
 		}, 800);

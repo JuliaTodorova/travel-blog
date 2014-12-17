@@ -2,196 +2,235 @@ directoryData = [
 	{
 		"img": "<img src='img/pic-thum/alberta.jpg' height='160' width='225'>",
 		"title": "Banff, Alberta",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent":"North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/cancun.jpg' height='160' width='225'>",
 		"title": "Cancun, Mexico",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent":"Central America"
 	},
 	{
 		"img": "<img src='img/pic-thum/cortes.jpg' height='160' width='225'>",
 		"title": "Cortes Island, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent":"North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/florence.jpg' height='160' width='225'>",
 		"title": "Florence, Italy",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/greece.jpg' height='160' width='225'>",
 		"title": "Halkidiki, Greece",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/kana.jpg' height='160' width='225'>",
 		"title": "Kananaskis, Alberta",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/kelowna.jpg' height='160' width='225'>",
 		"title": "Kelowna, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/la.jpg' height='160' width='225'>",
 		"title": "Los Angeles, California",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/london.jpg' height='160' width='225'>",
 		"title": "London, England",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/mount-wash.jpg' height='160' width='225'>",
 		"title": "Courtenay, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/munich1.jpg' height='160' width='225'>",
 		"title": "Munich, Germany",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/pisa.jpg' height='160' width='225'>",
 		"title": "Pisa, Italy",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/playa-d.jpg' height='160' width='225'>",
 		"title": "Playa Del Carmen, Mexico",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Central America"
 	},
 	{
 		"img": "<img src='img/pic-thum/pravets.jpg' height='160' width='225'>",
 		"title": "Pravets, Bulgaria",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/rome.jpg' height='160' width='225'>",
 		"title": "Rome, Italy",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/san-d.jpg' height='160' width='225'>",
 		"title": "San Diego, California",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/san-fran.jpg' height='160' width='225'>",
 		"title": "San Francisco, California",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent":"North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/seattle.jpg' height='160' width='225'>",
 		"title": "Seattle, Washington",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/sofia.jpg' height='160' width='225'>",
 		"title": "Sofia, Bulgaria",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/tofino.jpg' height='160' width='225'>",
 		"title": "Tofino, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/tulum.jpg' height='160' width='225'>",
 		"title": "Tulum, Mexico",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Central America"
 	},
 	{
 		"img": "<img src='img/pic-thum/vancouver.jpg' height='160' width='225'>",
 		"title": "Vancouver, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent":"North America"
 	},
 	{
 		"img": "<img src='img/pic-thum/velko.jpg' height='160' width='225'>",
 		"title": "Veliko Tarnovo, Bulgaria",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img": "<img src='img/pic-thum/venice.jpg' height='160' width='225'>",
 		"title": "Venice, Italy",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img":"<img src='img/pic-thum/victoria.jpg' height='160' width='225'>",
 		"title": "Victoria, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img":"<img src='img/pic-thum/whistler.jpg' height='160' width='225'>",
 		"title": "Whistler, BC",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img":"<img src='img/pic-thum/milan.jpg' height='160' width='225'>",
 		"title": "Milan, Italy",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img":"<img src='img/pic-thum/frankfurt.jpg' height='160' width='225'>",
 		"title": "Frankfurt, Germany",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img":"<img src='img/pic-thum/thessaloniki.jpg' height='160' width='225'>",
 		"title": "Thessaloniki, Greece",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	},
 	{
 		"img":"<img src='img/pic-thum/katman.jpg' height='160' width='225'>",
 		"title": "Kathmandu, Nepal",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/bhaktapur.jpg' height='160' width='225'>",
 		"title": "Bhaktapur, Nepal",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/nagarkot.jpg' height='160' width='225'>",
 		"title": "Nagarkot, Nepal",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/delhi.jpg' height='160' width='225'>",
 		"title": "New Delhi, India",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/agra.jpg' height='160' width='225'>",
 		"title": "Agra, India",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/sawai.jpg' height='160' width='225'>",
 		"title": "Sawai Madhopur, India",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/jodhpur.jpg' height='160' width='225'>",
 		"title": "Jodhpur, India",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/jaisa.jpg' height='160' width='225'>",
 		"title": "Jaisalmer, India",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Asia"
 	},
 	{
 		"img":"<img src='img/pic-thum/whistler.jpg' height='160' width='225'>",
 		"title": "New York",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "North America"
 	},
 	{
 		"img":"<img src='img/pic-thum/whistler.jpg' height='160' width='225'>",
 		"title": "Paris, France",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit."
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tempor lectus, id tincidunt quam. Mauris bibendum, purus viverra accumsan molestie, leo est aliquam lacus, non vulputate nulla urna eget elit.",
+		"continent": "Europe"
 	}
 ]
