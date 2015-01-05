@@ -15,12 +15,10 @@ jQuery(document).ready(function($){
 			});	
 		}
 	});
-});
 
-$(document).ready(function(){
 	$(".cd-primary-nav-trigger").click(function(){
 		$(".hide").fadeToggle(535);
-			e.preventDefault();
+		e.preventDefault();
 	});
 
 	$("#arrow-down, #searchBox").click(function(){
@@ -28,5 +26,20 @@ $(document).ready(function(){
 			scrollTop:$('#city-index-container').offset().top
 		}, 800);
 	});
+	$('#buttonFilter').click(function(event){
+		event.preventDefault();
+		var results = searchResults();
+		console.log(results);
+	});
 });
+
+function searchResults(){
+	var continents = $("#checkBox input:checkbox:checked").map(function(){
+		return $(this).val();
+	});
+	return { 
+		search: $('#textSearch').val(),
+		continents: continents
+	};
+}
 

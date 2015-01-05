@@ -39,7 +39,7 @@ app.collections.Cities = Backbone.Collection.extend({
 app = app ||{};
 
 app.views.City = Backbone.View.extend({
-	tagName: 'a',
+	tagName: 'li > a',
 	template: _.template($('#city-template').html()),
 	render: function(){
 		this.$el.html(this.template(this.model.toJSON()));
