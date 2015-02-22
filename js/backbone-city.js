@@ -54,6 +54,7 @@ app.views.Cities = Backbone.View.extend({
 		this.collection = new app.collections.Cities(data);
 		this.render();
 		this.on('change:searchFilter', this.filterBySearch, this);
+		this.on('change:checkFilter', this.filterByCheck, this);
 		this.collection.on('reset', this.render, this);
 	},
 

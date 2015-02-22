@@ -26,4 +26,9 @@ jQuery(document).ready(function($){
 			scrollTop:$('#city-index-container').offset().top
 		}, 800);
 	});
+	$('#buttonFilter').click(function(event){
+		event.preventDefault();
+		var results = searchResults();
+		console.log(results);
+	});
 });
